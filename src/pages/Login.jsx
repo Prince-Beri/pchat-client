@@ -275,7 +275,7 @@ const Login = () => {
               color='primary' 
               type='submit' 
               fullWidth
-              disabled={isLoading}
+              disabled={isLoading || username.error}
             >
               Sign Up
             </Button>
